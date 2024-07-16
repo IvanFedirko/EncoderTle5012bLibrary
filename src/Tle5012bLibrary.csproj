@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>FIV.Tle5012b</PackageId>
+    <RootNamespace>Tle5012b</RootNamespace>
+    <Version>1.0.1.0</Version>
+    <RepositoryUrl>https://gitverse.ru/grugu/Tle5012bLibrary</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Device.Gpio" Version="3.2.0" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+
+  </ItemGroup>
+
+
+</Project>
